@@ -15,3 +15,13 @@ win over anything here.
 - Commit after each landed arc (`M<n>.<k>: what`) and push to `origin main`.
 - Keep `ROADMAP.md`, the progress docs in `docs/` (AGENTS.md §7) and `plan/STATUS.md` current.
 - Don't ask the user questions; record genuinely-theirs decisions in `plan/STATUS.md`.
+
+## Agent skills
+
+### Issue tracker
+
+Reports are markdown files in the Software Depot's `apps/<App>/reports/`, not GitHub Issues. See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context: one `GLOSSARY.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
